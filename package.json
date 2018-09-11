@@ -1,0 +1,22 @@
+{
+  "name": "bakaa.me",
+  "version": "1.0.0",
+  "description": "Landing Page Bakaa.me",
+  "main": "app.js",
+  "dependencies": {
+    "pug": "^2.0.0-beta11",
+  },
+  "scripts": {
+    "run": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/py7hon/bakaa.me.git"
+  },
+  "author": "Iqbal Rifai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/py7hon/bakaa.me/issues"
+  },
+  "homepage": "https://bakaa.me"
+}

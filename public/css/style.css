@@ -1,0 +1,75 @@
+body {
+	background-color:#FFCC66;
+	background-image:url("https://lainon.neocities.org/kongou.png");
+	background-repeat:no-repeat;
+	background-position:left bottom;
+	background-size:1600px 970px;
+	color: navy;
+	font-family: sans-serif;
+	text-align: center;
+	margin: auto;
+}
+
+.pomf {
+	background-color: white;
+	width: 30%;
+	margin: auto;
+	border: black 1px solid;
+	border-radius: 5px;
+	padding: 10px;
+	transition: box-shadow 0.2s;
+}
+
+.pomf:hover {
+	box-shadow: 1px 1px 5px 2px #BA267D;
+}
+
+.pomf2 {
+	background-color: #D1D1E6;
+	width: 40%;
+	margin: auto;
+	border: black 1px solid;
+	border-radius: 5px;
+	padding: 10px;
+	transition: box-shadow 0.2s;
+}
+
+.pomf2:hover {
+	box-shadow: 1px 1px 5px 2px #BA267D;
+}
+
+.feet {
+	position: static;
+	bottom: 0;
+	left: 0;
+	padding: 15px;
+	border-top: 1px black solid;
+	background-color: #C7D6FF;
+}
+
+a {
+	color: #00998F;
+	transition: color 0.1s;
+}
+
+a:hover {
+	color: #23CDC7
+}
+img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
